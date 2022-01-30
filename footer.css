@@ -1,0 +1,34 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 247px;
+}
+
+footer > .menu {
+    display: flex;
+    width: 1230px;
+}
+
+footer > .menu > div {
+    margin-right: 20px;
+    font-size: .75rem
+}
+
+footer > .menu > div:nth-child(6) {
+    font-weight: bold;
+    color: #524fa1;
+}
+
+footer > .info {
+    width: 1230px;
+    margin-top: 20px;
+    color : #a8a9ab;
+    font-size: .75rem;
+    line-height: 10px;
+}
+
+footer > .info > p:nth-child(1){
+    font-weight: bold;
+}
